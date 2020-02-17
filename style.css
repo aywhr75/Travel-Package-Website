@@ -1,0 +1,138 @@
+a:link {
+    color: honeydew;
+    text-decoration: none;
+}
+a:visited {
+    color: lightseagreen;
+    text-decoration: none;
+}
+a:hover {
+    color: mediumturquoise;
+    text-decoration: underline;
+}
+body {
+    margin: 10px;
+    padding: 0px;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+.banner {
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("image/logo/breadcrumb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+.banner-text {
+    font-size: 50px;
+    line-height: 1;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 20px;
+    padding-top: 70px;
+}
+.nav-top {
+    display: flex;
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    background-color: rgb(114, 132, 233);
+    color: honeydew;
+}
+.nav-menu-loc {
+    display: flex;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.nav-loc {
+    display: flex;
+    margin-left: auto;
+}
+.nav-top-menu {
+    align-items: center;
+    padding-left: 10px;
+}
+.nav-top-sns {
+    float: left;
+    padding-left: 10px;
+}
+.title {
+    font-size: 20px;
+}
+section {
+    display: flex;
+    flex-direction: row;
+}
+nav {
+    background-color: rgb(2, 82, 109);
+    width: 500px;
+    padding-right: 60px;
+    float: left;
+}
+.prit {
+    padding: 20px 0 0 30px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+.canada {
+    display: flex;
+    flex-wrap: wrap;
+}
+.korea {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cuba {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer {
+    border-top: 1px solid rgb(44, 176, 236);
+    height: 200px;
+    background-color: dodgerblue;
+    margin-bottom: 0;
+}
+
+.footer {
+    display: flex;
+    padding-top: 10px 0;
+    height: 200px;
+}
+.footer li {
+    list-style: none;
+}
+.cont {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    padding-left: 200px;
+}
+.snsicon {
+    margin-top: 150px;
+    display: flex;
+    margin-left: auto;
+    padding-right: 50px;
+}
+.copy {
+    margin-top: 0;
+    padding-top: 15px;
+    background-color: darkcyan;
+    margin-bottom: 0;
+    display: flex;
+}
+.copyright {
+    width: 60%;
+    align-items: center;
+    margin-left: auto;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>WEB222 Store - Contact</title>
+        <div style= "width: 100%">
+                <link rel="stylesheet" type="text/css" href="css/contact.css" />
+        </div>
+        <style>
+         html{
+            background: url(n.png) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+             background-size: cover;
+        }</style>
+    </head>
+    <body>
+        <div style="margin: auto; display: table; background-color: rgb(250, 246, 195);">
+            <br>
+         <form method="post" action=https://httpbin.org/post>
+         <div class= "text-center">
+         <img src="image/logo/need_help_0.png" style= "margin-top: 0;" width ="500" alt= "help logo img">
+                </div>
+        <div style="width: 400px;"></div>
+        <div style="padding-bottom: 18px;font-size : 50px;">Contact Us</div>
+        <div style="padding-bottom: 18px;font-size : 12px;"><span style="color: red;">(* required)</span></div>
+        <div style="display: flex; padding-bottom: 18px;width : 450px;">
+        <div style=" margin-left : 0; margin-right : 1%; width : 49%;">First name<span style="color: red;"> *</span><br/>
+        <input type="text" name="firstname" style="width: 100%;"/>
+        </div>
+        <div style=" margin-left : 1%; margin-right : 0; width : 49%;">Last name<span style="color: red;"> *</span><br/>
+        <input type="text" name="lastname" style="width: 100%;"/>
+        </div>
+        </div><div style="padding-bottom: 18px;">Email<span style="color: red;"> *</span><br/>
+        <input type="email" name="email" style="width : 450px;"/>
+        </div>
+        <div style="padding-bottom: 18px;">Address<span style="color: red;"> *</span><br/>
+        <input type="text" name="address" style="width : 450px;"/>
+        </div>
+        <div style="padding-bottom: 18px;">City<span style="color: red;"> *</span><br/>
+        <input type="text" name="city" style="width : 450px;"/>
+        </div>
+        <div style="padding-bottom: 18px;">State/Province<br/>
+        <select id="Province" name="Province" style="width : 450px;">
+        <option>Select...</option>    
+        <option>AB</option>
+        <option>BC</option>
+        <option>MB</option>
+        <option>NB</option>
+        <option>NL</option>
+        <option>NT</option>
+        <option>NS</option>
+        <option>NV</option>
+        <option>ON</option>
+        <option>PE</option>
+        <option>QC</option>
+        <option>SK</option>
+        <option>YT</option>
+        </select>
+        </div>
+        <div style="padding-bottom: 18px;">Country<br/>
+        <select id="State" name="State" style="width : 450px;">
+        <option>Select...</option>
+        <option>Canada</option>
+        </select>
+        </div>
+        <div style="padding-bottom: 18px;">POST CODE<span style="color: red;"> *</span><br/>
+        <input id="zip" name="zip" type="text" placeholder="e.g.)A1B3C4" pattern="[0-9]*" maxlength="6" required>
+        </div>
+        <div style="padding-bottom: 8px;">Phone<span style="color: red;"> *</span><br/>
+        <input type="tel" name="phone" placeholder="e.g.)+1 888 888 8888" pattern="^[+]?[0-9]{0,1}[-. ]?\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$" maxlength="15"  title="Ten digits code" required style="width : 450px;"/>
+        </div>
+        <div style="padding-bottom: 18px;">   
+        <input type = "checkbox" name = "phonevalidation"> if you want to us to call please check this box
+        </div>
+        <div style="padding-bottom: 18px;">Massage To Us<span style="color: red;"> *</span><br/>
+        <textarea name= "question" rows = "15" cols= "60" placeholder="Maximum 1000 words..."></textarea>
+        </div>
+        <div>
+            <input type= "hidden" name= "myname" value= "YoungA Lee"><br>
+            <input type= "hidden" name= "student_number" value= "048417083"><br>
+        </div>
+            <div style="padding-bottom: 18px;">
+                <input name="skip_Submit" value="Submit" type="submit">
+                <input name="reset_data" value="Reset" type="reset"> 
+            </div>
+        </form>          
+        </div>
+    </body>
+</html>
